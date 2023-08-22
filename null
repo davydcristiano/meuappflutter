@@ -1,0 +1,63 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.70.0
+Flutter extension: 3.70.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.81.1
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Tue Aug 22 2023 [16:04:22 GMT-0300 (Horário Padrão de Brasília)] Log file started
+[16:04:22] [FlutterDaemon] [Info] Spawning C:\flutter\bin\flutter.bat with args ["daemon"]
+[16:04:22] [FlutterDaemon] [Info] ..  in C:\flutter
+[16:04:22] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[16:04:22] [FlutterDaemon] [Info]     PID: 9572
+[16:04:24] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":3024}}]
+[16:04:24] [FlutterDaemon] [Info] ==> [{"id":"1","method":"device.enable"}]
+[16:04:24] [FlutterDaemon] [Info] ==> [{"id":"2","method":"emulator.getEmulators"}]
+[16:04:24] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[16:04:24] [FlutterDaemon] [Info] <== [{"id":"1"}]
+[16:04:24] [FlutterDaemon] [Info] <== [{"id":"2","result":[{"id":"Pixel_2_API_31_-_Emulator","name":"Pixel 2 API 31 - Emulator","category":"mobile","platformType":"android"}]}]
+[16:04:29] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [versÆo 10.0.22621.2134]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[16:04:29] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 115.0.5790.173","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[16:04:29] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 115.0.1901.183","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[16:04:29] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:04:29] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:05:19] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:05:19] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:05:19] [FlutterDaemon] [Info] ==> [{"id":"5","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:05:19] [FlutterDaemon] [Info] <== [{"id":"5","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:05:32] [FlutterRun] [Error] [Dart  (Windows)] CUSTOMBUILD : error : unable to locate asset entry in pubspec.yaml: "fonts/Raleway-Regular.ttf". [C:\Users\Davyd Cristiano\Desktop\dio_projects\meuappflutter\build\windows\flutter\flutter_assemble.vcxproj]
+[16:05:32] [FlutterRun] [Error] [Dart  (Windows)] C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(247,5): error MSB8066: o build personalizado para 'C:\Users\Davyd Cristiano\Desktop\dio_projects\meuappflutter\build\windows\CMakeFiles\6922171cc746a630c1445c997b52012e\flutter_windows.dll.rule;C:\Users\Davyd Cristiano\Desktop\dio_projects\meuappflutter\build\windows\CMakeFiles\1cd729c3838fdc2a04d1392981e048ae\flutter_assemble.rule' foi encerrado com o c�digo 1. [C:\Users\Davyd Cristiano\Desktop\dio_projects\meuappflutter\build\windows\flutter\flutter_assemble.vcxproj]
+[16:05:33] [FlutterRun] [Error] [Dart  (Windows)] Exception: Build process failed.
+[16:07:37] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:07:37] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:07:37] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:07:37] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:10:34] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:10:34] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:10:34] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:10:34] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:10:34] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:10:34] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:10:48] [FlutterRun] [Error] [Flutter (Windows)] LINK : fatal error LNK1168: n�o foi poss�vel abrir C:\Users\Davyd Cristiano\Desktop\dio_projects\meuappflutter\build\windows\runner\Debug\meuappflutter.exe para escrita [C:\Users\Davyd Cristiano\Desktop\dio_projects\meuappflutter\build\windows\runner\meuappflutter.vcxproj]
+[16:10:48] [FlutterRun] [Error] [Flutter (Windows)] Exception: Build process failed.
+[16:12:13] [FlutterDaemon] [Info] ==> [{"id":"11","method":"emulator.getEmulators"}]
+[16:12:13] [FlutterDaemon] [Info] <== [{"id":"11","result":[{"id":"Pixel_2_API_31_-_Emulator","name":"Pixel 2 API 31 - Emulator","category":"mobile","platformType":"android"}]}]
+[16:12:16] [FlutterDaemon] [Info] ==> [{"id":"12","method":"emulator.launch","params":{"emulatorId":"Pixel_2_API_31_-_Emulator","coldBoot":false}}]
+[16:12:19] [FlutterDaemon] [Info] <== [{"id":"12"}]
+[16:12:22] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone64 x86 64","platform":"android-x64","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_2_API_31_-_Emulator","sdk":"Android 12 (API 31)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[16:12:22] [FlutterDaemon] [Info] ==> [{"id":"13","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:12:22] [FlutterDaemon] [Info] <== [{"id":"13","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:12:53] [FlutterDaemon] [Info] ==> [{"id":"14","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:12:53] [FlutterDaemon] [Info] <== [{"id":"14","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:13:00] [FlutterDaemon] [Info] ==> [{"id":"15","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:13:00] [FlutterDaemon] [Info] <== [{"id":"15","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[16:13:00] [FlutterDaemon] [Info] ==> [{"id":"16","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\Davyd Cristiano\\Desktop\\dio_projects\\meuappflutter"}}]
+[16:13:00] [FlutterDaemon] [Info] <== [{"id":"16","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
